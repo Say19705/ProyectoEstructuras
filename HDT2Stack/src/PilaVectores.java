@@ -1,36 +1,41 @@
+import java.util.ArayList;
 
 public class PilaVectores<E> implements iPila<E> {
 
+	protected ArrayList<E> listaE;
 	
+	public pilaVectores(){
+		listaE = new ArrayList<E>();
+	}
 	
 	
 	public boolean empty() {
 		
-		return false;
+		return size()==0;
 	}
 
 	
 	public E peek() {
 		
-		return null;
+		return listaE.get(size()-1);
 	}
 
 	
 	public E pop() {
 		
-		return null;
+		return listaE.get(size()-1);
 	}
 
 	
-	public E push() {
+	public void push(E item) {
 		
-		return null;
+		lista.add(item);
 	}
 
 	
-	public int search(Object o) {
+	public int size() {
 		
-		return 0;
+		return listaE.size();
 	}
 
 }
