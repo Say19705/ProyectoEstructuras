@@ -10,6 +10,8 @@ public class CalculadoraMain {
 		Scanner teclado1 = new Scanner(System.in);		//Scanner para ingresos de String 
 		Scanner teclado2 = new Scanner(System.in);
 		
+		
+		
 		System.out.println("+-----------------------+");
 		System.out.println("|      BIENVENIDO       |");
 		System.out.println("+-----------------------+");

@@ -1,3 +1,8 @@
+/**
+ * @author andres Say 19705
+ * @author Luis pedro Garcia 19
+ */
+
 import java.util.Vector;
 
 public class StackVector<E> implements iStack<E> {
