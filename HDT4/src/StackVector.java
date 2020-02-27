@@ -1,12 +1,12 @@
 /**
  * @author andres Say 19705
 
- * @author Luis pedro Garcia 19
+ * @author Luis pedro Garcia 19344
  */
 
 import java.util.Vector;
 
-public class StackVector<E> implements iStack<E> {
+public class StackVector<E>  extends AbstractStack {
 
 	private Vector<E> stack;
 	private boolean vacio;

@@ -1,6 +1,6 @@
 /**
  * @author andres Say 19705
- * @author Luis pedro Garcia 19
+ * @author Luis pedro Garcia 19344
  *Interfaz de la calculadora
  */
 public interface iCalculadora{

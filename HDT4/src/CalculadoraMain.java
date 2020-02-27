@@ -17,6 +17,10 @@ public class CalculadoraMain {
 		Scanner teclado2 = new Scanner(System.in);
 		iCalculadora calcu = new Calculadora();
 		iStack <Integer> stack = new StackVector<Integer>();
+		//esto lo estaba haciendo para pedirle al usuario que lista queria
+		FactoryStack stackfactory = new FactoryStack();
+		AbstractStack stackUso = null;
+		
 		
 		File txt = new File("datos.txt");
 		
@@ -33,6 +37,9 @@ public class CalculadoraMain {
 			int opcion = teclado2.nextInt();
 			if (opcion == 1) {
 				if(txt.exists()) {
+					//esto tambien lo estaba haciendo para pedirle que lista
+					Scanner decicionStack = new Scanner (System.in);
+					System.out.println("Que opcion de stack/lista desea usar")
 					Scanner data = new Scanner(txt);
 					String datos = data.nextLine();
 					System.out.println("Su operacion es la siguiente");
