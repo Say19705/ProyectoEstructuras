@@ -1,3 +1,4 @@
+import java.util.List;
 
 public abstract class abstractList<E> implements List<E>{
 	public abstractList() {

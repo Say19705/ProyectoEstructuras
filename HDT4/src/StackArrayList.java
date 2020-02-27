@@ -1,13 +1,13 @@
 /**
  * @author andres Say 19705
 
- * @author Luis pedro Garcia 19
+ * @author Luis pedro Garcia 19344
  */
 
 import java.util.ArrayList;
 
 
-public class StackArrayList<E> implements iStack<E> {
+public class StackArrayList<E>  extends AbstractStack  {
 
 	protected ArrayList<E> stack;
 	private boolean vacio;
@@ -54,7 +54,7 @@ public class StackArrayList<E> implements iStack<E> {
 
 	@Override
 	public E peek() {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
